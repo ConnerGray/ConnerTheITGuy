@@ -318,7 +318,7 @@ footer {
 
 /* form section */
 .form-section {
-    margin: auto;
+    margin: 0;
     overflow: hidden;
 }
 
@@ -469,7 +469,7 @@ footer {
 
     .form-section {
         padding: 20px;
-        height: 80vh;
+        height: 85vh;
         display: flex;
         align-items: center;
     }
