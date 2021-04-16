@@ -303,6 +303,7 @@ footer {
     border-radius: 8px;
     border: 2px solid var(--blue);
     box-shadow: 1px 1px 10px black;
+    overflow: hidden;
 }
 
 .projects-h1 {
@@ -381,6 +382,7 @@ footer {
 .btn7 {
     margin-top: 20px;
     width: 50%;
+    -webkit-appearance: none;
 }
 
 /*blog content*/
