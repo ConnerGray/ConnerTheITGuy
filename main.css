@@ -320,13 +320,11 @@ footer {
 
 /* form section */
 .form-section {
-    margin: 0;
-    overflow: hidden;
+    margin: auto;
 }
 
 .form-container {
-    width: 100%;
-    padding: 20px;
+    padding: 40px;
     display: flex;
     flex-direction: column;
     background-color: var(--dark);
@@ -483,8 +481,7 @@ footer {
     }
 
     .form-container {
-        width: 400px;
-        height: 90%;
+        padding: 20px;
     }
 }
 
