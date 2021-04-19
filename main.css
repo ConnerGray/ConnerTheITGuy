@@ -478,6 +478,7 @@ footer {
         height: 70vh;
         margin: 10px 0 10px 0;
         align-items: center;
+        justify-content: center;
     }
 
     .form-container {
