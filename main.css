@@ -61,8 +61,8 @@ header {
 
 
 .nav-logo {
-    height: 71px;
-    width: 71px;
+    height: 60px;
+    width: 60px;
 }
 .menu {
     display: flex;
@@ -330,7 +330,7 @@ footer {
 
 /* form section */
 .form-section {
-    margin: 20px 0 30px 0;
+    margin: auto;
 }
 
 .form-container {
