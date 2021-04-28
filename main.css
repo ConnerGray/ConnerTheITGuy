@@ -186,7 +186,7 @@ a:hover, a:active {
 
 /* Podcast Section */
 .podcast-section {
-    margin: 0px 0 20px 0;
+    margin: 20px 0 20px 0;
     height: auto;
     width: 100%;
 }
@@ -211,7 +211,7 @@ a:hover, a:active {
 
 .podcast-para {
     color: var(--main);
-    padding-top: 10px;
+    margin: 15px 0 15px 0;
 }
 
 .btn4 {
