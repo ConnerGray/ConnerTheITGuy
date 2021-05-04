@@ -207,8 +207,24 @@ a:hover, a:active {
     margin: 15px 0 15px 0;
 }
 
+.connect-buttons {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
 .btn4 {
-    width: 75%;
+    width: 50%;
+    background-color: var(--blue);
+    color: var(--main);
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 500;
+    transition: all .2s ease-in-out;
+    font-size: 18px;
+    text-align: center;
 }
 
 .cmm-img {
@@ -461,8 +477,7 @@ footer {
     }
 
     .btn4 {
-        width: 100%;
-        text-align: center;
+        width: 50%;
     }
 
     .projects-section {
