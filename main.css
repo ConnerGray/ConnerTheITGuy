@@ -207,7 +207,7 @@ a:hover, a:active {
 }
 
 .btn4 {
-    width: auto;
+    width: 100%;
 }
 
 .cmm-img {
@@ -482,6 +482,11 @@ footer {
         height: 70vh;
         align-items: center;
         justify-content: center;
+        overflow: hidden;
+    }
+
+    .form-para {
+        width: 25%;
     }
 }
 
