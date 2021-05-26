@@ -1,91 +1,122 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-
-  <title>Conner Gray | Home</title>
-  <meta name="description" content="">
-  <meta name="author" content="Conner Gray">
-  <meta content="width=device-width, initial-scale=1" name="viewport" />
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-J5SB101518"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-J5SB101518');
-  </script>
-
-  <link rel="stylesheet" href="./main.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Conner Gray</title>
 </head>
-
 <body>
-  <!-- Header --> 
-  <header>
-      <div class="header-container">
-        <nav class="navbar">
-          <a href="index.html"><img src="images/cglogo.png" class="nav-logo" loading="lazy"  srcset="images/cglogo-p-500.png 500w, images/cglogo.png 512w" 
-          alt="" class="cglogo-img"></a>
-
-          <div class="hamburger" id="hamburger">
-              <div class="bar bar-1"></div>
-              <div class="bar bar-2"></div>
-              <div class="bar bar-3"></div>
-          </div>
-
-              <ul class="menu" id="menu">
-                <a href="index.html"><li class="menu-item">Home</li></a>
-                <a href="projects.html"><li class="menu-item">Projects</li></a>
-                <a href="blog.html"><li class="menu-item">Blog</li></a>
-                <a href="contact.html"><li>Contact</li></a>
-              </ul>
-
-          </nav>
-      </div>
-  </header>
-
-  <!-- About Section --> 
-    <section class="about-section">
-      
-      <div class="about-container">
-      
-        <div class="about-title">
-          <h1 class="about-h1"> Web Developer for hire</h1>
-          <p class="about-para">Hello, my name is Conner. I am an IT professional who has been working in the industry for 3 years. 
-                                I have been doing development as a hobby since high school.  </p>
-        </div>
-      
-        <div class="about-buttons">
-          <a href='projects.html'><button class="btn btn1" type="button">Projects</button></a>
-          <a href='blog.html'><button class="btn btn2" type="button">Blog</button></a>
+        <!-- LANDING SECTION -->      
+        <div class="designs">
+            <div class="top"><img src="img/Top.svg"></div>
+            <div class="bottom"><img src="img/Bottom.svg"></div>
         </div>
 
-      </div>
+        <section class="landing">
+        
+        <div class="landing-content">
+            <img src="img/cglogo.png">
 
+            <h1> Conner <span>Gray</span> </h1>
+            <h3> <span>Front End</span> Web Developer</h3>
+            
+            <div class="social-icons">
+                <a href="#"> <img src="img/twitter.svg"></a>
+                <a href="#"> <img src="img/github.svg"> </a>
+                <a href="#"> <img src="img/linkedin (2).svg"> </a>
+            </div>
+        </div>
+
+        <div class="arrows">
+            <a class="arrow-link" href="#projects">
+                <img src="img/arrow-down-sign-to-navigate.svg" class="top-arrow">
+                <img src="img/arrow-down-sign-to-navigate (1).svg">
+            </a>
+        </div>
     </section>
 
-  <!-- Footer -->
-  <footer>
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="projects-wrapper">
+            <h2> My Work </h2>
 
-    <div class="footer-container">
+            <div class="projects-container">
+                <div class="projects-item">
+                    <h3> SportsDadOhio</h3>
+                    <p> A blog website </p>
 
-      <div class="footer-text"><strong>© 2021 Conner Gray</strong></div>
+                    <a href=#> <button type="button" class="btn">Visit</button> </a>
 
-      <div class="footer-icons">
-        <a href="https://twitter.com/realConnerGray" class="w-inline-block"><img src="images/twitter.svg" loading="lazy" width="19" alt="" class="icons"></a>
-        <a href="https://instagram.com/realconnergray" class="w-inline-block"><img src="images/instagram.svg" loading="lazy" width="18" alt="" class="icons"></a>
-        <a href="https://github.com/ConnerGray" class="w-inline-block"><img src="images/github.svg" loading="lazy" width="21" alt="" class="icons"></a>
-        <a href="https://www.linkedin.com/in/connergray/" class="w-inline-block"><img src="images/linkedin.svg" loading="lazy" width="19" alt="" class="icons"></a>
-        <a href="https://www.youtube.com/channel/UCGv-upIFIEiQdUr9AbXqjyg" class="w-inline-block"><img src="images/youtube.svg" loading="lazy" width="25" alt="" class="image-15"></a>
-      </div>
-    </div>
-  </footer>
-  <script src="/scripts.js"></script>
+                    <div class="tech-container">
+                        <img class ="tech-img" src="img/html-logo.png.crdownload">
+                        <img class ="tech-img" src="img/css-logo.png">
+                    </div>
+                </div>
+
+                <div class="projects-item">
+                    <h3> Cavemen Media</h3>
+                    <p> A podcast website </p>
+
+                    <a href=#> <button type="button" class="btn">Visit</button> </a>
+
+                    <div class="tech-container">
+                        <img class ="tech-img" src="img/html-logo.png.crdownload">
+                        <img class ="tech-img" src="img/css-logo.png">
+                    </div>
+                </div>
+
+                <div class="projects-item">
+                    <h3> ConnersITServices</h3>
+                    <p> A small business website </p>
+
+                    <a href=#> <button type="button" class="btn">Visit</button> </a>
+
+                    <div class="tech-container">
+                        <img class ="tech-img" src="img/html-logo.png.crdownload">
+                        <img class ="tech-img" src="img/css-logo.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact Section -->
+    <section class="contact">
+        <div class="contact-wrapper">
+            <h2> Contact Me </h2>
+
+            <div class="contact-form">
+                <form class="email-form" name="email-form" netlify data-netlify="true">
+                  <label for="name" class="field-label">Name</label>
+                  <input type="text" class="text-field" maxlength="256" name="name" data-name="Name" placeholder="Type your name here.." id="name">
+
+                  <label for="email" class="field-label">Email Address</label>
+                  <input type="email" class="text-field" maxlength="256" name="email" data-name="Email" placeholder="Type your email address here.." id="email" required="">
+
+                  <label class="field-label">Message</label>
+                  <input type="text" class="text-field message" maxlength="256" name="field" data-name="Field" placeholder="Type your message here.." id="field" required="">
+
+                  <input type="submit" value="Submit" data-wait="Please wait..." class="btn"></form>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-wrapper">
+            <h3> © 2021 Conner Gray </h3>
+
+            <div class="footer-icons">
+                <a href="#"> <img src="img/twitter.svg"></a>
+                <a href="#"> <img src="img/github.svg"> </a>
+                <a href="#"> <img src="img/linkedin (2).svg"> </a>
+            </div>
+        </div>
+    <footer>
 </body>
 </html>
