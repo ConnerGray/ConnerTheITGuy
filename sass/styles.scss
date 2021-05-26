@@ -266,7 +266,7 @@ span {color: $blue}
         margin: 20px;
     }
 
-    .contact-form .email-form {
+    .email-form {
         width: 50vw;
     }
 
@@ -282,7 +282,15 @@ span {color: $blue}
         width: 150px;
     }
 
+    .projects-item {
+        width: 80%;
+    }
+
     .contact-form .email-form {
         width: 75vw;
+    }
+
+    .text-field {
+        width: 80%;
     }
  }
