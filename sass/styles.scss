@@ -16,6 +16,7 @@ body, button {
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 h1 {font-size: 3rem; letter-spacing: 2px;}
@@ -114,14 +115,16 @@ span {color: $blue}
     background-color: $blue;
     color: $white;
     font-weight: 600;
-    padding: 10px 20px; 
+    padding: 15px 20px; 
     border: none;
     border-radius: 30px;
     cursor: pointer;
+    width: 40%;
 }
 
 .about-photo {
     margin-left: 3rem;
+    overflow: hidden;
 }
 
 .about-photo img {
