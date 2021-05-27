@@ -232,7 +232,7 @@ span {color: $blue}
     margin-top: 20px;
     padding: 20px 20px 10px 20px;
     height: auto;
-    width: 25vw;
+    width: 50vw;
     border: none;
     border-radius: 5px;
  }
@@ -315,7 +315,7 @@ span {color: $blue}
     }
 
     .email-form {
-        width: 50vw;
+        width: 80vw;
     }
 
     .footer-icons {
@@ -340,5 +340,9 @@ span {color: $blue}
 
     .text-field {
         width: 80%;
+    }
+
+    .about-btn {
+        font-size: 1rem;
     }
  }
