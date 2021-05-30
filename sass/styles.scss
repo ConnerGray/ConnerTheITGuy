@@ -1,6 +1,6 @@
 $background-color: #393E46;
 $blue: #3590F3;
-$white: #EEEEEE;
+$white: #f5f5f5;
 $font: 'Montserrat', sans-serif;
 
 /* Global styling */
@@ -21,7 +21,7 @@ html {
 
 h1 {font-size: 3rem; letter-spacing: 2px;}
 h2 {font-size: 2rem;}
-h3{font-size: 1rem;  letter-spacing: 2px;}
+h3{font-size: 1rem;}
 span {color: $blue}
 
 /* Landing Page styles */
@@ -126,6 +126,8 @@ span {color: $blue}
 .about-photo {
     margin-left: 3rem;
     overflow: hidden;
+    justify-content: center;
+    align-items: center;
 }
 
 .about-photo img {
@@ -153,7 +155,6 @@ span {color: $blue}
 
 .projects-wrapper h2{
     color: $background-color;
-    letter-spacing: 2px;
 }
 
 .projects-container {
