@@ -293,10 +293,11 @@ span {color: $blue}
  /* Media Queries */ 
  /* Tablet */
  @media screen and (max-width: 1010px) {
-    .about {
-        margin-left: 0px;
+    .top img, .bottom img {
+        height: 200px;
+        width: 200px;
     }
-    
+
     .about-wrapper {
         flex-direction: column;
     }
