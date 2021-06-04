@@ -214,9 +214,6 @@ span {color: $blue}
     width: 100vw;
     background-color: $blue;
     padding-top: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
  }
 
  .contact-wrapper {
@@ -228,7 +225,7 @@ span {color: $blue}
  .email-form {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     background-color: $white;
     color: $blue;
     margin-top: 20px;
@@ -236,23 +233,23 @@ span {color: $blue}
     height: auto;
     width: 50vw;
     border: none;
-    border-radius: 5px;
+    border-radius: 7px;
  }
 
  .field-label {
-     padding: 30px 0 10px 0;
      font-weight: 600;
  }
 
  .text-field {
-    width: 60%;
+    margin: 10px 0px 20px 0px; 
+    width: 100%;
     padding: 10px;
     border: none;
-    border-radius: 5px;
+    border-radius: 7px;
  }
 
  .message {
-    height: 70px;
+    height: 10rem;
  }
 
  /* FOOTER STYLING */
@@ -317,7 +314,7 @@ span {color: $blue}
     }
 
     .email-form {
-        width: 80vw;
+        width: 60vh;
     }
 
     .footer-icons {
@@ -341,6 +338,6 @@ span {color: $blue}
     }
 
     .text-field {
-        width: 80%;
+        width: 100%;
     }
  }
