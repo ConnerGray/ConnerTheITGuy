@@ -213,7 +213,7 @@ span {color: $blue}
     color: $white;
     padding: 20px 0;
     height: auto;
-    width: 100vw;
+    width: 100%;
     background-color: $blue;
     padding-top: 20px;
  }
@@ -222,6 +222,7 @@ span {color: $blue}
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
  }
 
  .email-form {
@@ -256,8 +257,7 @@ span {color: $blue}
 
  .submit-container {
      display: flex;
-     align-items: center;
-     text-align: center;
+     justify-content: center;
      width: 100%;
  }
 
@@ -298,6 +298,10 @@ span {color: $blue}
         width: 200px;
     }
 
+    .about {
+        margin-left: 0px;
+    }
+
     .about-wrapper {
         flex-direction: column;
     }
@@ -323,7 +327,7 @@ span {color: $blue}
     }
 
     .email-form {
-        width: 60vh;
+        width: 80%;
     }
 
     .footer-icons {
