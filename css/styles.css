@@ -163,7 +163,11 @@ a:hover { color: #3590F3; }
   .projects-item { width: 50%; margin: 20px; }
   .email-form { width: 80%; }
   .footer-icons { width: 40%; }
-  .con-content { text-align: center; } }
+  .con-content { text-align: center; }
+  .blog { height: auto; }
+  .blog-container { flex-direction: column; width: 90%; }
+  .info { width: 100%; align-items: center; }
+  .blog-post { width: 100%; margin-top: 30px; } }
 
 /* Mobile */
 @media screen and (max-width: 600px) { .top img, .bottom img { height: 150px; width: 150px; }
