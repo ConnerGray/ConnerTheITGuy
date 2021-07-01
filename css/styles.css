@@ -115,7 +115,7 @@ a:hover { color: #3590F3; }
 
 .con-content { display: flex; height: 100%; flex-direction: column; justify-content: center; align-items: center; color: #141414; }
 
-.blog { margin: 20px 0; height: 75vh; }
+.blog, .blog2 { margin: 20px 0; height: 75vh; }
 
 .blog-container { width: 90%; margin: auto; display: flex; justify-content: center; }
 
@@ -164,7 +164,7 @@ a:hover { color: #3590F3; }
   .email-form { width: 80%; }
   .footer-icons { width: 40%; }
   .con-content { text-align: center; }
-  .blog { height: auto; }
+  .blog2 { height: auto; }
   .blog-container { flex-direction: column; width: 90%; }
   .title { text-align: center; }
   .info { width: 100%; align-items: center; }
