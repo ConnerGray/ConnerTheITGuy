@@ -115,7 +115,7 @@ a:hover { color: #3590F3; }
 
 .con-content { display: flex; height: 100%; flex-direction: column; justify-content: center; align-items: center; color: #141414; }
 
-.blog, .blog2 { margin: 20px 0; height: 75vh; }
+.blog, .blog2 { margin: 20px 0; height: 65vh; }
 
 .blog-container { width: 90%; margin: auto; display: flex; justify-content: center; }
 
