@@ -351,6 +351,7 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: $dark;
 }
 
 
@@ -365,6 +366,7 @@ a:hover {
     width: 90%;
     margin: auto;
     display: flex;
+    justify-content: center;
 }
 
 .blog-items {
@@ -393,6 +395,10 @@ a:hover {
     display: flex;
     width: 100%;
     justify-content: center;
+}
+
+.blog-btn {
+    width: auto;
 }
 
 //aside blog

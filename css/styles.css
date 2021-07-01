@@ -113,11 +113,11 @@ a:hover { color: #3590F3; }
 
 .construction { height: 80vh; }
 
-.con-content { display: flex; height: 100%; flex-direction: column; justify-content: center; align-items: center; }
+.con-content { display: flex; height: 100%; flex-direction: column; justify-content: center; align-items: center; color: #141414; }
 
 .blog { margin: 20px 0; height: 75vh; }
 
-.blog-container { width: 90%; margin: auto; display: flex; }
+.blog-container { width: 90%; margin: auto; display: flex; justify-content: center; }
 
 .blog-items { display: flex; flex-direction: column; }
 
@@ -128,6 +128,8 @@ a:hover { color: #3590F3; }
 .blog-item p { margin: 10px 0 20px 0; }
 
 .button-container { display: flex; width: 100%; justify-content: center; }
+
+.blog-btn { width: auto; }
 
 .info { display: flex; flex-direction: column; width: 25%; }
 
