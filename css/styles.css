@@ -166,6 +166,7 @@ a:hover { color: #3590F3; }
   .con-content { text-align: center; }
   .blog { height: auto; }
   .blog-container { flex-direction: column; width: 90%; }
+  .title { text-align: center; }
   .info { width: 100%; align-items: center; }
   .blog-post { width: 100%; margin-top: 30px; } }
 
