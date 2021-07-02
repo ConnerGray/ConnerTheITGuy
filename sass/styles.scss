@@ -264,6 +264,7 @@ a:hover {
     padding: 15px 50px;
     border: none;
     border-radius: 8px;
+    text-align: center;
 }
 
 .projects-item h3 {
@@ -489,6 +490,11 @@ a:hover {
     border-radius: 8px;
 }
 
+.winLogos {
+    height: 250px;
+    width: 650px;  
+}
+
 .title h2 {
     color: $dark;
 }
@@ -522,12 +528,21 @@ a:hover {
     margin: 10px 0;
 }
 
+.blog-ul {
+    margin-left: 40px;
+}
+
 .blog-ul li {
     padding: 5px 0;
 }
 
 .bottom {
     margin-bottom: 10px;
+}
+
+.bottom li {
+    border-top: 1px solid #d6d6d6;
+    border-bottom: 1px solid #d6d6d6;
 }
 
  /* Media Queries */ 
@@ -625,6 +640,11 @@ a:hover {
     .blog-image img {
         height: 225px;
         width: 350px;
+    }
+
+    .winLogos {
+        height: 150px;
+        width: 400px;  
     }
 
  }
