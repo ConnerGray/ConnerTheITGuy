@@ -31,6 +31,24 @@ h1 {font-size: 3rem; letter-spacing: 2px;}
 h2 {font-size: 2rem;}
 h3{font-size: 1rem;}
 
+.btn {
+    background-color: $blue;
+    color: $white;
+    padding: 10px;
+    width: 100px;
+    border: none;
+    border-radius: 8px;
+    margin: 20px 0 20px 0; 
+    font-weight: 600;   
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    -webkit-appearance: none;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
 /* Header */
 .header {
     background-color: $background-color;
@@ -252,7 +270,7 @@ a:hover {
     padding-bottom: 5px;
 }
 
-.projects-item .btn, .btn {
+.projects-item .btn {
     background-color: $blue;
     color: $white;
     padding: 10px;
@@ -377,7 +395,7 @@ a:hover {
 
 .blog, .blog2 {
     margin: 20px 0;
-    height: 65vh;
+    height: auto;
 }
 
 .blog-container {
@@ -418,6 +436,7 @@ a:hover {
 
 .blog-btn {
     width: auto;
+    padding: 20px 50px;
 }
 
 //aside blog
@@ -458,6 +477,18 @@ a:hover {
     width: 75%;
 }
 
+.blog-image {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.blog-image img {
+    height: 400px;
+    width: 600px;
+    border-radius: 8px;
+}
+
 .title h2 {
     color: $dark;
 }
@@ -467,8 +498,9 @@ a:hover {
     flex-direction: column;
 }
 
-.name {
-    
+.divider2 {
+    margin-top: 30px;
+    border-bottom: solid 2px #d6d6d6;
 }
 
 .date {
@@ -477,6 +509,25 @@ a:hover {
 
 .content {
     margin: 30px 0 0 0;
+}
+
+.blog-heading {
+    color: $dark;
+    margin: 20px 0;
+}
+
+.blog-para {
+    font-size: 1.2rem;
+    line-height: 30px;
+    margin: 10px 0;
+}
+
+.blog-ul li {
+    padding: 5px 0;
+}
+
+.bottom {
+    margin-bottom: 10px;
 }
 
  /* Media Queries */ 
@@ -560,11 +611,20 @@ a:hover {
         display: flex;
         margin: auto;
       }
+
+      .divider2 {
+          display: none;
+      }
     
 
     .blog-post {
         width: 100%;
         margin-top: 20px;
+    }
+
+    .blog-image img {
+        height: 225px;
+        width: 350px;
     }
 
  }
