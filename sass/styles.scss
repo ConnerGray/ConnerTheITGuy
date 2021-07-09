@@ -407,6 +407,18 @@ a:hover {
     justify-content: center;
 }
 
+.blog-header {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.blog-header h2 {
+    border-bottom: solid 3px $blue;
+    padding-bottom: 10px;
+}
+
 .blog-items {
     display: flex;
     flex-direction: column;
