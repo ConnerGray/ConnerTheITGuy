@@ -294,58 +294,59 @@ a:hover {
     width: 30px;
 }
 
-/*contact Section*/
- .contact {
-    color: $white;
-    padding: 20px 0;
-    height: auto;
-    width: 100%;
-    background-color: $blue;
-    padding-top: 20px;
- }
+/* WHAT WE OFFER */
+.offer {
+    margin: 20px auto 50px auto;
+}
 
- .contact-wrapper {
+.offer-container {
+    margin: auto;
+    width: 80%;
+}
+
+.description {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 75%;
+}
+
+.description h2 {
+    border-bottom: solid 3px $blue;
+    padding-bottom: 10px;
+}
+
+.description h3 {
+    margin: 20px 0;
+    font-weight: 400;
+}
+
+.info-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 20px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.mobile-first, .fully-responsive, .optimization, .Google-analytics, .SEO, .unlimited  {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
- }
+    text-align: center;
+}
 
- .email-form {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    background-color: $white;
-    color: $blue;
-    margin-top: 20px;
-    padding: 20px 20px 10px 20px;
-    height: auto;
-    width: 50vw;
-    border: none;
-    border-radius: 8px;
- }
+.mobile-first h3, .fully-responsive h3, .optimization h3, .Google-analytics h3, .SEO h3, .unlimited h3 {
+    margin: 20px 0;
+    font-weight: 500;
+}
 
- .field-label {
-     font-weight: 600;
- }
-
- .text-field {
-    margin: 10px 0px 20px 0px; 
-    width: 100%;
-    padding: 10px;
-    border: none;
-    border-radius: 8px;
- }
-
- .message {
-    height: 10rem;
- }
-
- .submit-container {
-     display: flex;
-     justify-content: center;
-     width: 100%;
- }
+.mobile-first p, .fully-responsive p, .optimization p, .Google-analytics p, .SEO p, .unlimited p{
+    width: 75%;
+}
 
  /* FOOTER STYLING */
 .footer {
@@ -547,6 +548,83 @@ a:hover {
     border-bottom: 1px solid #d6d6d6;
 }
 
+/*contact Section*/
+.contact {
+    color: $white;
+    padding: 20px 0;
+    height: auto;
+    width: 100%;
+    background-color: $blue;
+    padding-top: 20px;
+ }
+
+ .contact-form {
+     margin: 30px auto; 
+ }
+
+ .contact-heading {
+     margin: auto;
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     align-items: center;
+     width: 50%;
+     color: $dark;
+ }
+
+ .contact-heading h2 {
+     margin-bottom: 20px; 
+     border-bottom: solid 3px $blue;
+     padding-bottom: 10px;
+ }
+
+ .contact-heading h3 {
+     font-weight: 450;
+ }
+
+ .contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+ }
+
+ .email-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: $white;
+    color: $blue;
+    margin-top: 20px;
+    padding: 20px 20px 10px 20px;
+    height: auto;
+    width: 50vw;
+    border: none;
+    border-radius: 8px;
+ }
+
+ .field-label {
+     font-weight: 600;
+ }
+
+ .text-field {
+    margin: 10px 0px 20px 0px; 
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+ }
+
+ .message {
+    height: 10rem;
+ }
+
+ .submit-container {
+     display: flex;
+     justify-content: center;
+     width: 100%;
+ }
+
  /* Media Queries */ 
  /* Tablet */
  @media screen and (max-width: 1010px) {
@@ -649,6 +727,14 @@ a:hover {
         width: 400px;  
     }
 
+    .info-cards {
+        grid-template-columns: 1fr;
+        grid-row-gap: 40px;
+    }
+
+    .contact-heading {
+        width: 75%;
+    }
  }
 
 /* Mobile */
