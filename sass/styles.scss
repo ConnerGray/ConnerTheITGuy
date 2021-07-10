@@ -60,6 +60,7 @@ h3{font-size: 1rem;}
 a {
     text-decoration: none;
     color: $white;
+    text-align: center;
 }
 
 a:hover {
@@ -642,6 +643,10 @@ a:hover {
  @media screen and (max-width: 1010px) {
     .header-container {
         width: 90%;
+    }
+
+    a {
+        font-size: .8rem;
     }
 
     .top img, .bottom img {
