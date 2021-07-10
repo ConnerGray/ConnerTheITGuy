@@ -747,6 +747,10 @@ a:hover {
     .contact-heading {
         width: 75%;
     }
+
+    .contact-form .email-form {
+        width: 90vw;
+    }
  }
 
 /* Mobile */
@@ -758,10 +762,6 @@ a:hover {
 
     .projects-item {
         width: 80%;
-    }
-
-    .contact-form .email-form {
-        width: 75vw;
     }
 
     .text-field {
