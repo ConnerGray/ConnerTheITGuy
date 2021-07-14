@@ -365,6 +365,7 @@ a:hover {
 .project-item h3 {
     color: $dark;
     margin-bottom: 7px;
+    font-size: 1.2rem;
 }
 
 .tech-container {
@@ -636,6 +637,12 @@ a:hover {
      display: flex;
      justify-content: center;
      width: 100%;
+ }
+
+ .contact-btn {
+    margin: 10px;
+    font-size: 1rem;
+    width: 200px;
  }
 
  /* Media Queries */ 
