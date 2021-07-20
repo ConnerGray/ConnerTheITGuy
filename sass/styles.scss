@@ -405,7 +405,7 @@ a:hover {
     width: 90%;
     margin: auto;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .blog-header {
@@ -464,6 +464,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     width: 25%;
+    
 }
 
 .info h3 {
@@ -495,6 +496,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     width: 75%;
+    margin-top: 30px;
 }
 
 .blog-image {
