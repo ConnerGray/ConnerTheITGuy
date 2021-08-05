@@ -346,15 +346,16 @@ a:hover {
 .projects-container {
     width: 100%;
     margin: 30px auto;
-    display: flex;
-    justify-content: space-evenly;    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px; 
 }
 
 .project-item {
     display: flex;
     flex-direction: column;
     background-color: $white;
-    width: 30%;
+    width: auto;
     text-align: center;
     padding: 20px;
     border-radius: 5px;
@@ -421,13 +422,13 @@ a:hover {
 }
 
 .blog-items {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
 }
 
 .blog-item {
-    width: 50%;
+    width: auto;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -703,8 +704,7 @@ a:hover {
     //Projects Page 
 
     .projects-container {
-        flex-direction: column;
-        justify-content: center;
+        grid-template-columns: 1fr;
     }
 
     .project-item {
@@ -723,6 +723,10 @@ a:hover {
     .blog-container {
         flex-direction: column;
         width: 90%;
+    }
+
+    .blog-items {
+        grid-template-columns: 1fr;
     }
 
     .blog-item {
