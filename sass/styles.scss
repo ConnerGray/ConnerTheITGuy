@@ -36,7 +36,7 @@ a:hover {
 }
 
 .header-container {
-    width: 90%;
+    width: 80%;
     height: 12vh;
     margin: auto;
 }
@@ -295,6 +295,11 @@ a:hover {
     margin: 30px 20px;
 }
 
+.projects-wrapper {
+    width: 80%;
+    margin: auto;
+}
+
 .projects-content {
     display: flex;
     flex-direction: column;
@@ -372,7 +377,7 @@ a:hover {
 }
 
 .blog-container {
-    width: 90%;
+    width: 80%;
     margin: auto;
     display: flex;
     flex-direction: row;
