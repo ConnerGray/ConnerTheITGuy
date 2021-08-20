@@ -52,6 +52,7 @@ a:hover {
     height: 100%;
     display: flex;
     align-items: center;
+    flex-direction: row;
 }
 
 .nav {
@@ -62,7 +63,7 @@ a:hover {
 
 .nav li {
     list-style-type: none;
-    padding: 20px 10px;
+    padding: 20px 20px;
     font-family: $font;
     font-weight: 500;
 }
@@ -75,7 +76,7 @@ a:hover {
 .landing {
     background-color: $background-color;
     color: $white;
-    height: 100vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -96,6 +97,8 @@ a:hover {
 
 .landing-h1 {
     color: $white;
+    font-size: 2rem;
+    margin: 20px 0 0px 0;
 }
 
 .landing-h3 {
@@ -120,16 +123,16 @@ a:hover {
     display: flex;
     flex-direction: column;
     position: absolute;
-    bottom: 50px;
+    bottom: 200px;
 }
 
 .arrows img {
-    height: 75px;
-    width: 100px;
+    height: 50px;
+    width: 75px;
 }
 
 .top-arrow {
-    margin-bottom: -100px;
+    margin-bottom: -70px;
 }
 
 .arrow-link {
@@ -542,6 +545,7 @@ a:hover {
 }
 
 /*contact Section*/
+/*Home Page form*/
 .contact {
     color: $white;
     padding: 20px 0;
@@ -586,8 +590,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    background-color: $white;
-    color: $blue;
+    color: $white;
     margin-top: 20px;
     padding: 20px 20px 10px 20px;
     height: auto;
@@ -603,25 +606,34 @@ a:hover {
  .text-field {
     margin: 10px 0px 20px 0px; 
     width: 100%;
-    padding: 10px;
+    padding: 20px;
     border: none;
     border-radius: 8px;
+    background-color: $dark-blue;
  }
-
+ 
  .message {
     height: 10rem;
  }
 
- .submit-container {
-     display: flex;
-     justify-content: center;
-     width: 100%;
- }
-
  .contact-btn {
-    margin: 10px;
+    margin: 0;
     font-size: 1rem;
     width: 200px;
+    background-color: $dark-blue; 
  }
+
+/* Contact page form */
+.email-form2 {
+    background-color: none; 
+}
+
+.field-label2 {
+    color: $dark;
+}
+
+.text-field2 {
+    color: $white;
+}
 
  @import "mediaqueries";
