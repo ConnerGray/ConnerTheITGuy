@@ -24,43 +24,42 @@
 <body>
         <!-- HEADER SECTION -->
         <header class="header">
-            <div class="header-container">
+            <div class="container">
                 <div class="header-content">
                     <div class="header-img">
-                        <a href="index.html"><img src="img/cglogo.png" alt="Logo" height="50px" width="50px"></a>
+                        <a href="index.html"><img src="img/cglogo.png" alt="Logo" height="50px" width="50px"> </a>
                     </div>
-
-                    <ul class="nav">
-                        <a href="index.html"> <li>Home</li> </a>
-                        <a href="portfolio.html"> <li>My Work</li> </a>
-                        <a href="blog.html"> <li>Blog</li> </a> 
-                        <a href="contact.html"> <li class="active">Contact</li> </a>
-                    </ul>
+                    
+                    <div class="nav">
+                        <a href="index.html" class="nav-item"> Home</a>
+                        <a href="portfolio.html" class="nav-item"> My Work</a>
+                        <a href="blog.html" class="nav-item"> Blog</a>
+                        <a href="contact.html" class="nav-item active"> Contact</a>
+                    </div>
                 </div>
             </div>
         </header>
 
-        <!--Contact Form-->
-        <section class="contact-form">
-            <div class="contact-wrapper">
-                <div class="contact-heading">
-                    <h2> Contact Me </h2>
-                    <h3>I am always looking to take on new and exciting projects! Fill out the form below with your information and a little bit about your project to get the process started!</h3>
-                </div>
-    
-                <div class="contact-form contact-form2">
-                    <form class="email-form email-form2" name="email-form" netlify data-netlify="true">
-                      <label for="name" class="field-label field-label2">Name</label>
-                      <input type="text" class="text-field text-field2" maxlength="256" name="name" data-name="Name" id="name">
-    
-                      <label for="email" class="field-label field-label2">Email Address</label>
-                      <input type="email" class="text-field text-field2" maxlength="256" name="email" data-name="Email" id="email" required="">
-    
-                      <label class="field-label field-label2">Message</label>
-                      <input type="text" class="text-field text-field2 message" maxlength="256" name="field" data-name="Field" id="field" required="">
-    
-                      <input type="submit" value="Submit" data-wait="Please wait..." class="btn contact-btn">
-                      
+        <!-- contact Section -->
+        <section class="contact" id="contact">
+            <div class="container">
+                
+                <h1 class="contact-h1"> Contact Me </h1>
+                <p class="contact-p">I am always looking to take on new and exciting projects! Fill out the form below with your information and a little bit about your project to get the process started!</p>
+
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" name="email-form" netlify data-netlify="true">
+                    <label for="name" class="field-label">Name</label>
+                    <input type="text" class="text-field" maxlength="256" name="name" data-name="Name" id="name">
+
+                    <label for="email" class="field-label">Email Address</label>
+                    <input type="email" class="text-field" maxlength="256" name="email" data-name="Email" id="email" required="">
+
+                    <label class="field-label">Message</label>
+                    <input type="text" class="text-field message" maxlength="256" name="field" data-name="Field" id="field" required="">
+
+                    <input type="submit" value="Submit" data-wait="Please wait..." class="btn contact-btn">
+                    
                     </form>
                 </div>
             </div>
@@ -68,14 +67,16 @@
 
     <!-- Footer Section -->
     <footer class="footer">
-        <div class="footer-wrapper">
-            <h3> © 2021 Conner Gray </h3>
+        <div class="container">
+            <div class="footer-wrapper">
+            <h3 class="footer-h3"> © 2021 Conner Gray </h3>
 
             <div class="footer-icons">
-                <a href="https://twitter.com/realconnergray"> <img src="img/twitter.svg"></a>
-                <a href="https://github.com/ConnerGray"> <img src="img/github.svg"> </a>
-                <a href="https://www.linkedin.com/in/connergray/"> <img src="img/linkedin (2).svg"> </a>
+                <a href="https://twitter.com/realconnergray"> <img src="img/twitter.svg" class="footer-icon"></a>
+                <a href="https://github.com/ConnerGray"> <img src="img/github.svg" class="footer-icon"> </a>
+                <a href="https://www.linkedin.com/in/connergray/"> <img src="img/linkedin (2).svg" class="footer-icon"> </a>
             </div>
+        </div>
         </div>
     <footer>
 </body>

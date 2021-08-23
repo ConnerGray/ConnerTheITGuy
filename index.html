@@ -24,105 +24,81 @@
 <body>
         <!-- HEADER SECTION -->
         <header class="header">
-            <div class="header-container">
+            <div class="container">
                 <div class="header-content">
                     <div class="header-img">
                         <a href="index.html"><img src="img/cglogo.png" alt="Logo" height="50px" width="50px"> </a>
                     </div>
-
-                    <ul class="nav">
-                        <a href="index.html"> <li class="active">Home</li> </a>
-                        <a href="portfolio.html"> <li>My Work</li> </a>
-                        <a href="blog.html"> <li>Blog</li> </a> 
-                        <a href="contact.html"> <li>Contact</li> </a>
-                    </ul>
+                    
+                    <div class="nav">
+                        <a href="index.html" class="nav-item active"> Home</a>
+                        <a href="portfolio.html" class="nav-item"> My Work</a>
+                        <a href="blog.html" class="nav-item"> Blog</a>
+                        <a href="contact.html" class="nav-item"> Contact</a>
+                    </div>
                 </div>
             </div>
         </header>
 
-        <!-- LANDING SECTION -->    
-        <section class="landing">
-        
-        <div class="landing-content">
-            <img src="img/cglogo.png">
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-headings">
+                    <h1 class="hero-h1"> Web Design + Developmet for small businesses </h1>
+                    <h3 class="hero-h3"> I develop custom websites for small businesses. </h3>
 
-            <h1 class="landing-h1"> Front End Web Developer </h1>
-            <h3 class="landing-h3"> </h3>
-            
-            <div class="social-icons">
-                <a href="https://twitter.com/realconnergray"> <img src="img/twitter.svg"></a>
-                <a href="https://github.com/ConnerGray"> <img src="img/github.svg"> </a>
-                <a href="https://www.linkedin.com/in/connergray/"> <img src="img/linkedin (2).svg"> </a>
+                    <a href="portfolio.html"> <button class="btn main-btn"> View My Work </button> </a>
+                </div>
+
+            <div class="hero-photo">
+                <img src="img/Web-Dev.png" alt="Web Developer" loading="Lazy">
             </div>
         </div>
-
-        <div class="arrows">
-            <a class="arrow-link" href="#about">
-                <img src="img/arrow-down-sign-to-navigate.svg" class="top-arrow">
-                <img src="img/arrow-down-sign-to-navigate (1).svg">
-            </a>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section class="about" id="about">
-
-        <div class="about-wrapper">
-            <div class="about-content">
-                <h1> Web Design + Developmet for small businesses </h1>
-
-                <h4> I develop custom websites for small businesses. </h4>
-
-                <a href="portfolio.html"> <button class="btn about-btn"> View My Work </button> </a>
-            </div>
-
-            <div class="about-photo">
-                <img src="img/Web2.jpg">
-            </div>
         </div>
     </section>
 
     <!--  WHAT WE OFFER -->
     <section class="offer">
-        <div class="offer-container">
+        <div class="container">
             <div class="description">
-                <h2> What I Offer</h2>
-                <h3> I develop custom websites for small businesses and indviduals. 
+                <h1 class="description-h1"> What I Offer</h1>
+                <h3 class="description-h3"> I develop custom websites for small businesses and indviduals. 
                     I focus on creating a great online experience for your users. 
                 </h3>
             </div>
 
             <div class="info-cards">
-                <div class="webdev">
+                <div class="card">
                     <img src="img/device.svg" loading="lazy" alt="Phone" height="75px" width="75px">
 
-                    <h3> Web Development + Design</h3>
-                    <p>I design custom websites to meet all the needs of your business. </p>
+                    <h3 class="card-h3"> Web Development + Design</h3>
+                    <p class="card-p">I design custom websites to meet all the needs of your business. </p>
                 </div>
 
-                <div class="SEO">
-                    <img src="img/seo.svg" loading="lazy" alt="Phone" height="75px" width="75px">
+                <div class="card">
+                    <img src="img/seo.svg" class="seo" loading="lazy" alt="Phone" height="60px" width="60px">
 
-                    <h3> SEO </h3>
-                    <p> I use SEO techniques and best practices to drive more traffic and customers to your site. </p>
+                    <h3 class="card-h3 top-margin"> SEO </h3>
+                    <p class="card-p"> I use SEO techniques and best practices to drive more traffic and customers to your site. </p>
                 </div>
 
-                <div class="google-business">
-                    <img src="img/business.svg" loading="lazy" alt="checkmark" height="75px" width="75px">
+                <div class="card">
+                    <img src="img/business.svg" class="business" loading="lazy" alt="checkmark" height="60px" width="60px">
 
-                    <h3> Google Business</h3>
-                    <p>I will set you up with Google Business to make your business easier to find on the web!</p>
+                    <h3 class="card-h3 top-margin"> Google Business</h3>
+                    <p class="card-p">I will set you up with Google Business to make your business easier to find on the web!</p>
                 </div>
         </div>
     </section>
 
     <!-- contact Section -->
     <section class="contact" id="contact">
-        <div class="contact-wrapper">
-            <h2> Contact Me </h2>
+        <div class="container">
+            <h1 class="contact-h1"> Contact Me </h1>
 
-            <div class="contact-form">
-                <form class="email-form" name="email-form" netlify data-netlify="true">
+            <div class="contact-form-wrapper">
+                <form class="contact-form" name="email-form" netlify data-netlify="true">
                   <label for="name" class="field-label">Name</label>
                   <input type="text" class="text-field" maxlength="256" name="name" data-name="Name" id="name">
 
@@ -141,14 +117,16 @@
 
     <!-- Footer Section -->
     <footer class="footer">
-        <div class="footer-wrapper">
-            <h3> © 2021 Conner Gray </h3>
+        <div class="container">
+            <div class="footer-wrapper">
+            <h3 class="footer-h3"> © 2021 Conner Gray </h3>
 
             <div class="footer-icons">
-                <a href="https://twitter.com/realconnergray"> <img src="img/twitter.svg"></a>
-                <a href="https://github.com/ConnerGray"> <img src="img/github.svg"> </a>
-                <a href="https://www.linkedin.com/in/connergray/"> <img src="img/linkedin (2).svg"> </a>
+                <a href="https://twitter.com/realconnergray"> <img src="img/twitter.svg" class="footer-icon"></a>
+                <a href="https://github.com/ConnerGray"> <img src="img/github.svg" class="footer-icon"> </a>
+                <a href="https://www.linkedin.com/in/connergray/"> <img src="img/linkedin (2).svg" class="footer-icon"> </a>
             </div>
+        </div>
         </div>
     <footer>
 </body>

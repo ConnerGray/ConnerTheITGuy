@@ -1,0 +1,30 @@
+.btn {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: $white;
+    background-color: $blue;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.contact-btn {
+    margin-top: 10px; 
+    width: 50%;
+    font-weight: 600;
+}
+
+.project-btn {
+    width: 50%;
+    margin: 5px 0;
+}
+
+.blog-btn {
+    width: 50%;
+    margin: 5px 0;
+}

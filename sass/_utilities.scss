@@ -1,8 +1,8 @@
-$background-color: #393E46;
-$dark: #141414;
-$blue: #3590F3;
-$dark-blue: #20558d;
-$white: #f5f5f5;
+$blue: #017dfd;
+$dark-blue: #0A1931;
+$darker-blue: #050c1a;
+$white: #e7e7e7;
+$light: #ffffff;
 $font: 'Montserrat', sans-serif;
 
 /* Global styling */
@@ -16,6 +16,12 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color: $dark-blue;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
 }
 
 body, button {
@@ -28,6 +34,19 @@ html, body {
     max-width: 100%;
 }
 
-h1 {font-size: 2.5rem; letter-spacing: 2px;}
+a {
+    text-decoration: none;
+    color: $white;
+}
+
+a:hover {
+    color: $blue;
+}
+
+li {
+    list-style-type: none;
+}
+
+h1 {font-size: 2.5rem;}
 h2 {font-size: 2rem;}
 h3{font-size: 1rem;}

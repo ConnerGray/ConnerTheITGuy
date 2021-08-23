@@ -1,151 +1,47 @@
-@media screen and (max-width: 1010px) {
-    .header-container {
-        width: 90%;
-    }
-
-    a {
-        font-size: .8rem;
-    }
-
-    .header-img img {
-        height: 35px;
-        width: 35px;
-    }
-
-    .top img, .bottom img {
-        height: 200px;
-        width: 200px;
-    }
-
-    .about {
-        margin-left: 0px;
-    }
-
-    .about-wrapper {
-        flex-direction: column;
-    }
-
-    .about-content {
-        width: 100%;
-        padding: 20px;
-        text-align: center;
-    }
-
-    .about-photo {
-        margin-left: 0rem;
-    }
-
-    .email-form {
-        width: 80%;
-    }
-
-    .footer-icons {
-        width: 40%;
-    }
-
-    .con-content {
-        text-align: center;
-    }
-
-    //Projects Page 
-
-    .projects-container {
-        grid-template-columns: 1fr;
-    }
-
-    .project-item {
-        width: 100%;
+@media screen and (min-width: 1024px) {
+    .container {
+        width: 60%;
     }
     
-    .item2 {
-        margin: 30px 0;
+    .nav {
+        width: 30%;  
     }
 
-    //Blog post
-    .blog2 {
-        height: auto;
+    .hero {
+        margin: 0 0 5rem 0;
     }
 
-    .blog-container {
-        flex-direction: column;
-        width: 90%;
-    }
-
-    .blog-items {
-        grid-template-columns: 1fr;
-    }
-
-    .blog-item {
-        width: 100%;
-    }
-
-    .title {
-        text-align: center;
-    }
-
-    .info {
+    .hero-content {
+        margin: auto;
+        flex-direction: row;
         width: 100%;
         align-items: center;
-    }
+        text-align: left;
+    } 
 
-    .social-icons2 {
-        margin-bottom: 20px;
-    }
-
-    .divider {
-        border-bottom: solid 2px #d6d6d6;
-        width: 75%;
-        display: flex;
-        margin: auto;
-      }
-
-      .divider2 {
-          display: none;
-      }
-    
-
-    .blog-post {
-        width: 100%;
-        margin-top: 20px;
-    }
-
-    .blog-image img {
-        height: 225px;
-        width: 350px;
-    }
-
-    .winLogos {
-        height: 150px;
-        width: 400px;  
+    .offer {
+        margin: 5rem 0 5rem 0;
     }
 
     .info-cards {
-        grid-template-columns: 1fr;
-        grid-row-gap: 40px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 100px;
     }
 
-    .contact-heading {
-        width: 75%;
+    .contact-form {
+        margin: auto;
+        width: 60%;
     }
 
-    .contact-form .email-form {
-        width: 90vw;
-    }
- }
- 
-
-/* Mobile */
-@media screen and (max-width: 600px) {
-    .top img, .bottom img {
-        height: 150px;
-        width: 150px;
+    .contact-btn {
+        width: 25%;
+        font-weight: 600;
     }
 
-    .projects-item {
-        width: 80%;
+    .project-container {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-row-gap: 20px;
+        grid-column-gap: 20px;
     }
 
-    .text-field {
-        width: 100%;
-    }
- }
+}

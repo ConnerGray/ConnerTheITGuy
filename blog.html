@@ -24,18 +24,18 @@
 <body>
         <!-- HEADER SECTION -->
         <header class="header">
-            <div class="header-container">
+            <div class="container">
                 <div class="header-content">
                     <div class="header-img">
-                        <a href="index.html"><img src="img/cglogo.png" alt="Logo" height="50px" width="50px"></a>
+                        <a href="index.html"><img src="img/cglogo.png" alt="Logo" height="50px" width="50px"> </a>
                     </div>
-
-                    <ul class="nav">
-                        <a href="index.html"> <li>Home</li> </a>
-                        <a href="portfolio.html"> <li>My Work</li> </a>
-                        <a href="blog.html"> <li class="active">Blog</li> </a> 
-                        <a href="contact.html"> <li>Contact</li> </a>
-                    </ul>
+                    
+                    <div class="nav">
+                        <a href="index.html" class="nav-item"> Home</a>
+                        <a href="portfolio.html" class="nav-item"> My Work</a>
+                        <a href="blog.html" class="nav-item active"> Blog</a>
+                        <a href="contact.html" class="nav-item"> Contact</a>
+                    </div>
                 </div>
             </div>
         </header>
@@ -43,15 +43,15 @@
 
         <!-- Blog Section -->
         <section class="blog">
-            <div class="blog-container">
-                <div class="blog-content">
+            <div class="container">
                     <div class="blog-header">
-                        <h2> Blog Posts </h2>
+                        <h1 class="blog-h1"> Blog Posts </h1>
                     </div>
+
                     <div class="blog-items">
                         <div class="blog-item">
-                            <h2> My thoughts on Windows 11</h2>
-                            <p> A short write up with my thoughts on Microsoft's new operating system</p>
+                            <h3 class="blog-item-h3"> My thoughts on Windows 11</h3>
+                            <p class="blog-item-p"> A short write up with my thoughts on Microsoft's new operating system</p>
     
                             <div class="button-container">
                                 <a href="./blog-items/windows11.html">
@@ -60,21 +60,22 @@
                             </div>
                         </div>
                     </div>
-                </div>
             </div>
         </section>
 
 
     <!-- Footer Section -->
     <footer class="footer">
-        <div class="footer-wrapper">
-            <h3> © 2021 Conner Gray </h3>
+        <div class="container">
+            <div class="footer-wrapper">
+            <h3 class="footer-h3"> © 2021 Conner Gray </h3>
 
             <div class="footer-icons">
-                <a href="https://twitter.com/realconnergray"> <img src="img/twitter.svg"></a>
-                <a href="https://github.com/ConnerGray"> <img src="img/github.svg"> </a>
-                <a href="https://www.linkedin.com/in/connergray/"> <img src="img/linkedin (2).svg"> </a>
+                <a href="https://twitter.com/realconnergray"> <img src="img/twitter.svg" class="footer-icon"></a>
+                <a href="https://github.com/ConnerGray"> <img src="img/github.svg" class="footer-icon"> </a>
+                <a href="https://www.linkedin.com/in/connergray/"> <img src="img/linkedin (2).svg" class="footer-icon"> </a>
             </div>
+        </div>
         </div>
     <footer>
 </body>
