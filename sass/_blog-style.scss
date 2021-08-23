@@ -1,3 +1,4 @@
+/* Blog Page Styling*/
 .blog {
     margin: 30px 0;
 }
@@ -31,4 +32,58 @@
 
 .blog-item-p {
     margin-top: 20px;
+}
+
+/* Blog Post Page Styling*/
+.blog-wrapper {
+    color: $white;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.blog-name {
+    margin: 15px 0 0 0;
+}
+
+.blog-h4 {
+    font-weight: 400;
+    margin: 0 0 20px 0;
+}
+
+.social-icons {
+    display: flex;
+    width: 25%;
+    justify-content: space-evenly;
+}
+
+.title {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.blog-h2 {
+    margin: 0 0 20px 0;
+}
+
+.content {
+    line-height: 25px;
+}
+
+.bottom {
+    margin-bottom: 20px;
+}
+
+.winLogos {
+    height: 150px;
+    width: auto;
+}
+
+.win11-dt, .win11 {
+    height: 350px;
+    width: auto;
 }
