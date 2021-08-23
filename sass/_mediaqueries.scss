@@ -1,10 +1,11 @@
+/* tablet */
 @media screen and (min-width: 1024px) {
     .container {
-        width: 60%;
+        width: 75%;
     }
     
     .nav {
-        width: 30%;  
+        width: 40%;  
     }
 
     .hero {
@@ -25,7 +26,7 @@
 
     .info-cards {
         grid-template-columns: 1fr 1fr 1fr;
-        grid-column-gap: 100px;
+        grid-column-gap: 1.5rem;
     }
 
     .contact-form {
@@ -40,8 +41,8 @@
 
     .project-container {
         grid-template-columns: 1fr 1fr 1fr;
-        grid-row-gap: 20px;
-        grid-column-gap: 20px;
+        grid-row-gap: 10px;
+        grid-column-gap: 10px;
     }
 
 }
