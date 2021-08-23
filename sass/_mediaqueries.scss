@@ -1,15 +1,40 @@
 /* tablet */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
     .container {
-        width: 75%;
+        width: 80%;
+    }
+
+    .header-content {
+        position: static;
+    }
+
+    .header-img {
+        flex: 1;
     }
     
     .nav {
-        width: 40%;  
+        position: static;
+        margin: auto;
+        width: 60%; 
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: transparent;
+        flex-direction: row;
+        padding: 0;
+        
+    }
+
+    .active {
+        border-bottom: solid 2px $blue;
+    }
+
+    .icon {
+        display: none !important;
     }
 
     .hero {
-        margin: 0 0 5rem 0;
+        margin: 3rem 0 5rem 0;
     }
 
     .hero-content {
@@ -40,9 +65,24 @@
     }
 
     .project-container {
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
         grid-row-gap: 10px;
         grid-column-gap: 10px;
     }
+}
 
+/* Desktop */
+@media screen and (min-width: 1400px) {
+    .container {
+        width: 60%;
+    }
+
+    .nav {
+        width: 40%;  
+    }
+
+    
+    .footer-icons {
+        width: 15%;
+    }
 }

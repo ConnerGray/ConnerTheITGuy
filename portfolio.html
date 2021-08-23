@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 
       <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-J5SB101518"></script>
@@ -18,10 +19,12 @@
         gtag('config', 'G-J5SB101518');
         </script>
         
-    <title>Conner Gray | About</title>
+    <title>Conner Gray | Portfolio</title>
 </head>
 
 <body>
+    <script src="https://use.fontawesome.com/67f4a9400e.js"></script>
+
         <!-- HEADER SECTION -->
         <header class="header">
             <div class="container">
@@ -30,12 +33,16 @@
                         <a href="index.html"><img src="img/cglogo.png" alt="Logo" height="50px" width="50px"> </a>
                     </div>
                     
-                    <div class="nav">
+                    <div class="nav" id="nav">
                         <a href="index.html" class="nav-item"> Home</a>
                         <a href="portfolio.html" class="nav-item active"> My Work</a>
                         <a href="blog.html" class="nav-item"> Blog</a>
                         <a href="contact.html" class="nav-item"> Contact</a>
                     </div>
+
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars fa-2x" id="bars"></i>
+                      </a>
                 </div>
             </div>
         </header>
@@ -116,12 +123,13 @@
             <h3 class="footer-h3"> © 2021 Conner Gray </h3>
 
             <div class="footer-icons">
-                <a href="https://twitter.com/realconnergray"> <img src="img/twitter.svg" class="footer-icon"></a>
-                <a href="https://github.com/ConnerGray"> <img src="img/github.svg" class="footer-icon"> </a>
-                <a href="https://www.linkedin.com/in/connergray/"> <img src="img/linkedin (2).svg" class="footer-icon"> </a>
+                <a href="https://twitter.com/realconnergray"> <i class="fab fa-twitter fa-lg"></i></a>
+                <a href="https://github.com/ConnerGray"> <i class="fab fa-github fa-lg"></i> </a>
+                <a href="https://www.linkedin.com/in/connergray/"> <i class="fab fa-linkedin-in fa-lg"></i> </a>
             </div>
         </div>
         </div>
-    <footer>
+    </footer>
+        <script src="scripts.js"></script>
 </body>
 </html>

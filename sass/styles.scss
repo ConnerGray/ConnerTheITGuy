@@ -15,21 +15,24 @@ Header Section
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
 }
 
 .nav {
-    display: flex;
-    justify-content: space-between;
-    width: 75%;
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    line-height: 40px;
+    background-color: $darker-blue;
+    border-radius: 5px;
+    margin-top: 250px;
+    position:absolute;
 }
 
 .nav-item {
     font-weight: 450;
-}
-
-.active {
-    padding-bottom   : 10px;
-    border-bottom: solid 2px $blue;
 }
 
 /**************
@@ -168,8 +171,9 @@ Footer Section
 
 .footer-icons {
     display: flex;
-    width: 100%;
-    justify-content: center;
+    margin: 10px auto;
+    width: 20%;
+    justify-content: space-between;
 }
 
 .footer-icon {
