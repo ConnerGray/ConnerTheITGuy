@@ -21,15 +21,15 @@ h2 { font-size: 2rem; }
 
 h3 { font-size: 1rem; }
 
-.btn { padding: 10px; border-radius: 5px; border: none; color: #e7e7e7; background-color: #017dfd; font-size: 1rem; font-weight: 500; cursor: pointer; -webkit-appearance: none; }
+.btn { width: 50%; padding: 10px; border-radius: 5px; border: none; color: #e7e7e7; background-color: #017dfd; font-size: 1rem; font-weight: 500; cursor: pointer; -webkit-appearance: none; }
 
 .btn:hover { opacity: 0.8; }
 
-.contact-btn { margin-top: 10px; width: 50%; font-weight: 600; }
+.contact-btn { margin-top: 10px; font-weight: 600; }
 
-.project-btn { width: 50%; margin: 5px 0; }
+.project-btn { margin: 5px 0; }
 
-.blog-btn { width: 50%; margin: 5px 0; }
+.blog-btn { margin: 5px 0; }
 
 .projects { margin: 30px 0; }
 
