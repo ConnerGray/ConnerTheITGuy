@@ -56,7 +56,7 @@ h3 { font-size: 1rem; }
 .blog-item-p { margin-top: 20px; }
 
 /* Form styling can be found under styles.scss */
-.contact-p { color: #ffffff; line-height: 20px; text-align: center; }
+.contact-p { margin-bottom: 20px; color: #ffffff; line-height: 20px; text-align: center; }
 
 /**************
 Header Section
