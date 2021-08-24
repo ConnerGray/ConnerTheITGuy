@@ -30,7 +30,7 @@ nav {
     background-color: $darker-blue;
     border-radius: 5px;
     transform: translateY(-200%);
-    transition: transform .8s ease-in;
+    transition: transform .7s ease-in;
 }
 
 .nav-active {
@@ -71,6 +71,7 @@ nav {
     height: 3px;
     background-color: $white;
     margin: 5px;
+    transition: all 0.3s ease;
 }
 
 /**************

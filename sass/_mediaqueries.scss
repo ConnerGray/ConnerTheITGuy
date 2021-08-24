@@ -3,15 +3,28 @@
     .container {
         width: 80%;
     }
-    
-    nav {
-        
-    }
 
     .nav-links {
+        position: relative;
         display: flex;
+        flex-direction: row;
         justify-content: space-around;
-        width: 70%;
+        width: 50%;
+        background-color: transparent;
+        transform: translateY(0%);
+        height: auto;
+        top: auto;
+        left: auto;
+        margin: auto;
+        transition: transform 0s ease-in;
+    }
+
+    .logo {
+        flex: 2;
+    }
+
+    .nav-links li {
+        opacity: 1;
     }
 
     .burger {
@@ -19,6 +32,7 @@
     }
 
     .active {
+        padding-bottom: 10px;
         border-bottom: solid 2px $blue;
     }
 
@@ -67,8 +81,8 @@
         width: 60%;
     }
 
-    .nav {
-        width: 40%;  
+    .nav-links {
+        width: 50%;  
     }
 
     
