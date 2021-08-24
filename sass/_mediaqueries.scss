@@ -3,35 +3,25 @@
     .container {
         width: 80%;
     }
-
-    .header-content {
-        position: static;
-    }
-
-    .header-img {
-        flex: 1;
-    }
     
-    .nav {
-        position: static;
-        margin: auto;
-        width: 60%; 
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        background-color: transparent;
-        flex-direction: row;
-        padding: 0;
+    nav {
         
+    }
+
+    .nav-links {
+        display: flex;
+        justify-content: space-around;
+        width: 70%;
+    }
+
+    .burger {
+        display: none;
     }
 
     .active {
         border-bottom: solid 2px $blue;
     }
 
-    .icon {
-        display: none !important;
-    }
 
     .hero {
         margin: 3rem 0 5rem 0;
