@@ -160,13 +160,20 @@ Footer Section
 
 .footer {
     margin: 30px 0 0 0;
-    text-align: center;
     border-top: solid 2.5px $darker-blue;
     padding: 20px 0;
 }
 
+.footer-wrapper {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .footer-h3 {
     color: $white;
+    flex: 2;
 }
 
 .footer-icons {
@@ -174,12 +181,6 @@ Footer Section
     margin: 10px auto;
     width: 20%;
     justify-content: space-between;
-}
-
-.footer-icon {
-    height: 25px;
-    width: 25px;
-    margin: 10px 10px 0 10px;
 }
 
  @import "mediaqueries";
