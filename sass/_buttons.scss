@@ -1,7 +1,7 @@
 .main-button-container {
     margin: 40px auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     width: 100%;
 }
 
@@ -22,14 +22,18 @@
     opacity: 0.8;
 }
 
+.main-btn {
+    width: 10rem;
+}
+
 .secondary-btn {
     background-color: $dark-blue;
     border: 1px solid $blue;
+    width: 10rem;
 }
 
 .contact-btn {
     margin-top: 10px; 
-    font-weight: 600;
 }
 
 .project-btn {
