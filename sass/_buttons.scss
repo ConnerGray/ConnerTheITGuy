@@ -1,5 +1,12 @@
+.main-button-container {
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
 .btn {
-    width: 50%;
+    width: 100%;
     padding: 10px;
     border-radius: 5px;
     border: none;
@@ -13,6 +20,11 @@
 
 .btn:hover {
     opacity: 0.8;
+}
+
+.secondary-btn {
+    background-color: $dark-blue;
+    border: 1px solid $blue;
 }
 
 .contact-btn {
