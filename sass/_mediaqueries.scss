@@ -70,12 +70,17 @@
 
     .contact-form {
         margin: auto;
-        width: 60%;
+        width: 90%;
     }
 
     .contact-btn {
         width: 25%;
         font-weight: 600;
+    }
+
+    .contact-p {
+        width: 75%;
+        margin: auto;
     }
 
     .project-container {
@@ -85,7 +90,7 @@
     }
 
     .blog-item {
-        width: 50%;
+        width: 60%;
     }
 }
 
@@ -102,5 +107,9 @@
     
     .footer-icons {
         width: 15%;
+    }
+
+    .contact-p {
+        width: 50%;
     }
 }
