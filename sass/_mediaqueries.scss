@@ -112,4 +112,13 @@
     .contact-p {
         width: 50%;
     }
+
+    /* Additional Services Section */
+    .main-wrapper {
+        flex-direction: row;
+    }
+
+    .item-wrapper {
+        margin: 0 0 0 10rem;
+    }
 }
