@@ -90,8 +90,13 @@ Hero Section
     text-align: center;
 }
 
+.hero-headings {
+    width: 100%;
+}
+
 .hero-h1 {
     color: $white;
+    font-size: 3.5rem;
 }
 
 .hero-p {

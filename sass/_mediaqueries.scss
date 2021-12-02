@@ -53,6 +53,7 @@
         flex-direction: column;
         height: 12vh;
         justify-content: space-between;
+        width: 100%;
     }
 
     .main-btn, .secondary-btn {
@@ -90,7 +91,7 @@
     }
 
     .blog-item {
-        width: 60%;
+        width: 80%;
     }
 }
 
