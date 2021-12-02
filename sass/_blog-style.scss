@@ -15,7 +15,7 @@
 }
 
 .blog-item {
-    margin: 10px auto;
+    margin: 20px auto;
     padding: 20px;
     width: 100%;
     display: flex;
@@ -36,6 +36,11 @@
 
 .blog-item-p {
     margin-top: 20px;
+}
+
+.date {
+    margin-top: 5px;
+    color: rgb(197, 197, 197);
 }
 
 /* Blog Post Page Styling*/
