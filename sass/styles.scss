@@ -277,4 +277,32 @@ Footer Section
     justify-content: space-between;
 }
 
+/***************************
+Newsletter Subscribe Section
+****************************/
+.newsletter {
+    height: auto;
+    padding: 20px 0;
+    background-color: $darker-blue;
+    color: $white;
+}
+
+.newsletter-wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subscribe-h2 {
+    font-size: 1.5rem;
+}
+
+.subscribe-form {
+    display: flex;
+}
+
+
+
  @import "mediaqueries";

@@ -55,3 +55,10 @@ p {line-height: 25px;}
 
 .fas, .fa, .far { font-family: 'FontAwesome' !important;}
 i{ font-family: 'FontAwesome' }
+
+.text-field-light {
+    background-color: $white;
+    height: 3rem;
+    width: 300px;
+    border-radius: 5px 0 0 5px;
+}
