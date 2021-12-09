@@ -282,9 +282,10 @@ Newsletter Subscribe Section
 ****************************/
 .newsletter {
     height: auto;
-    padding: 20px 0;
+    padding: 50px 0;
     background-color: $darker-blue;
     color: $white;
+    display: flex;
 }
 
 .newsletter-wrapper {
