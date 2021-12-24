@@ -53,7 +53,6 @@
         flex-direction: column;
         height: 12vh;
         justify-content: space-between;
-        width: 100%;
     }
 
     .main-btn, .secondary-btn {
@@ -91,30 +90,7 @@
     }
 
     .blog-item {
-        width: 80%;
-    }
-
-    .newsletter-wrapper {
-        flex-direction: row;
-    }
-
-    .submit {
-        margin-top: 0px;
-    }
-
-    .subscribe-form {
-        flex-direction: row;
-    }
-
-    .news-btn {
-        margin-top: 0px;
-        border-radius: 0px 5px 5px 0px;
-        width: 35%;
-    }
-
-    .text-field-light {
-        border-radius: 5px 0px 0px 5px;
-        width: 300px;
+        width: 60%;
     }
 }
 
