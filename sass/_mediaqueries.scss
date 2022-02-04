@@ -89,9 +89,7 @@
         grid-column-gap: 10px;
     }
 
-    .blog-item {
-        width: 60%;
-    }
+   
 }
 
 /* Desktop */
@@ -120,5 +118,11 @@
 
     .item-wrapper {
         margin: 0 0 0 10rem;
+    }
+
+    .blog-items {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
     }
 }
