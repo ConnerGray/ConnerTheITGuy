@@ -95,9 +95,9 @@
 }
 
 /* Desktop */
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1200px) {
     .container {
-        width: 60%;
+        width: 50%;
     }
 
     .nav-links {
@@ -113,12 +113,7 @@
         width: 50%;
     }
 
-    /* Additional Services Section */
-    .main-wrapper {
-        flex-direction: row;
-    }
-
-    .item-wrapper {
-        margin: 0 0 0 10rem;
+    .about-btn {
+        width: 30%;
     }
 }

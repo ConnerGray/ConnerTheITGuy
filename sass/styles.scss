@@ -1,6 +1,6 @@
 @import "utilities";
 @import "buttons";
-@import "portfolio-style";
+@import "about-style";
 @import "blog-style";
 @import "contact-style";
 
@@ -17,15 +17,15 @@ nav {
 }
 
 .nav-links {
-    margin:  0 -45%;
+    margin:  0 -50%;
     position: absolute;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     height: 15rem;
-    width: 90%;
-    top: 9vh;
+    width: 100%;
+    top: 0vh;
     left: 50%;
     background-color: $darker-blue;
     border-radius: 5px;
