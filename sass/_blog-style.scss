@@ -102,3 +102,21 @@
 .product-link {
     color: $blue;
 }
+
+// Affiliate Links
+.affiliate-links-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:  auto;
+    gap: 10px;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+}
+
+// Related Articles
+.related-articles-section {
+    margin: 50px 0;
+}

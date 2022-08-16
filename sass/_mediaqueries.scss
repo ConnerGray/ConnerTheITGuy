@@ -92,6 +92,10 @@
     .blog-item {
         width: 100%;
     }
+    .affiliate-links-container {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows:  auto;
+    }
 }
 
 /* Desktop */
