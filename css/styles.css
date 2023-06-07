@@ -79,6 +79,10 @@ i {
   width: 100%;
 }
 
+.button-container {
+  margin-top: 10px;
+}
+
 .btn {
   width: 100%;
   padding: 10px;
@@ -238,7 +242,7 @@ i {
 
 .social-icons {
   display: flex;
-  width: 25%;
+  width: 40%;
   justify-content: space-evenly;
 }
 
@@ -700,6 +704,9 @@ Newsletter Subscribe Section
   .affiliate-links-container {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
+  }
+  .social-icons {
+    width: 25%;
   }
 }
 /* Desktop */
