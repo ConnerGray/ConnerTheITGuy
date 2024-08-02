@@ -916,7 +916,8 @@
 .newsletter-section {
   background-color: var(--dark);
   border-radius: 20px;
-  width: 80%;
+  width: 100%;
+  max-width: 80rem;
   margin-left: auto;
   margin-right: auto;
   position: relative;
