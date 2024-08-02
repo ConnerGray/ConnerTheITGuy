@@ -2420,6 +2420,11 @@
     padding-bottom: 6rem;
   }
 
+  .container {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
   .rl_contact1_spacing-block-3 {
     padding-bottom: 2.5rem;
   }
@@ -2673,6 +2678,10 @@
     padding-bottom: 4rem;
   }
 
+  .about-h1 {
+    font-size: 3rem;
+  }
+
   .rl_contact1_spacing-block-3 {
     padding-bottom: 2rem;
   }
@@ -2758,6 +2767,10 @@
 
   .rl_layout1_component {
     grid-template-columns: 1fr;
+  }
+
+  .about-h1 {
+    line-height: 50px;
   }
 }
 
