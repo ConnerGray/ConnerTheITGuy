@@ -380,12 +380,12 @@
 }
 
 .blog-headings-wrapper {
-  border-top: 2px solid var(--white-smoke\<deleted\|variable-24a28d17\>);
-  border-bottom: 2px none var(--white-smoke\<deleted\|variable-24a28d17\>);
+  border-top: 2px solid var(--dark);
+  border-bottom: 2px none var(--dark);
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 0;
+  padding-top: 100px;
   padding-bottom: 0;
   display: flex;
 }
