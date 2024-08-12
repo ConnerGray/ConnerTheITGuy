@@ -507,8 +507,8 @@
 }
 
 .btn.secondary {
-  border: 2px solid var(--orange);
-  color: var(--orange);
+  border: 2px solid var(--dark);
+  color: var(--dark);
   background-color: #0000;
   border-radius: 5px;
   width: 25%;
@@ -517,8 +517,8 @@
 }
 
 .btn.secondary:hover {
-  background-color: var(--orange);
-  color: var(--white-smoke);
+  border-color: var(--orange);
+  color: var(--orange);
 }
 
 .btn.main {
@@ -1237,7 +1237,7 @@
 }
 
 .heading-4 {
-  color: var(--white-smoke\<deleted\|variable-24a28d17\>);
+  color: var(--dark);
   margin-top: 0;
   margin-bottom: 0;
   font-size: 2rem;
@@ -2398,6 +2398,7 @@
   .h1 {
     margin-top: 0;
     margin-bottom: 0;
+    font-size: 3.5rem;
     line-height: 70px;
   }
 
@@ -2757,6 +2758,10 @@
     width: 85%;
   }
 
+  .h1 {
+    font-size: 3rem;
+  }
+
   .cta-btn {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
@@ -2770,6 +2775,11 @@
     grid-template-columns: 1fr;
   }
 
+  .container {
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+
   .about-h1 {
     line-height: 50px;
   }
@@ -2780,7 +2790,7 @@
 }
 
 #w-node-_4f26c1b3-a427-25b6-b5d8-ebe7a3cd6bd3-2d20a2ff {
-  justify-self: center;
+  justify-self: end;
 }
 
 #w-node-_47104d2b-0d82-b6f6-32fc-d76aca7b8209-ca7b8204 {
